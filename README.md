@@ -8,11 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install these Modules
+Install these Modules.
 
 ```
 Install-Module MSOnline
 Install-Module AzureAD
+```
+
+## Connect to your account
+
+Find the below section in the code to make the connection.
+```
+# Run once
+# Connect-AzAccount
+# Connect-MSOlService
 ```
 
 ## Ran the Script then what?
@@ -34,4 +43,4 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
